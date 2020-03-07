@@ -8,18 +8,41 @@
 
 <body>
   <div class="container">
-    <em>
-        This is meant as a quick intro to how we will create front-end code for the rest of the semester.<br/>
-        The ONLY HTML-file you should consider is index.htm (in the public folder) and ALL your javascript code should go into the source folder.<br/>
-        Use this small example as a template for this week. Next time we will focus on JavaScript, it will be with React, i a way "similar" this<br/>
-        Make sure all your JavaScript code is included in index.js, the "by magic" it will be included in the bundle.js file which is included by the index.html
-    </em>
-    <br/>
-    <br/>
-    <h2>Jokes</h2>
-    <p id="jokes"> </p>
-  </div>
+      <h2>Jokes</h2>
+      <p id="jokes"> </p>
+
+      
+      <h3>Get joke by id</h3>
+        <p>
+            Skriv joke id: <input type="text" id="joke_id">
+            <button id="joke_id_button">Vis joke</button>
+        </p>
+      <p id="joke_result"></p>
+        
+
+      <p id="joke_add">
+      <h3>Add new joke</h3>
+        <p>
+          Indsæt joke her:
+          <input type="text" value="" id="add_joke" />
+          <button id="new_joke_button">Tilføj joke</button>
+        </p>
+      </p>
+
+      <br>
+
+      <h3>Quote of the hour</h3>
+        <p>
+          <button id="hourly_joke_button">hourly joke</button>
+        </p>
+        <div id="jokeDiv">
+            <br>
+        </div>
+
+
+      <h3>assignment 3</h3>
+
+
   <script src="bundle.js"></script>
 </body>
-
 </html>
